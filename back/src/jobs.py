@@ -155,7 +155,7 @@ def arp_handler(job: Job, job_host: typing.Any) -> None:
 
 
 def add_ipip_interface(job: Job, job_host: typing.Any) -> None:
-    """ Method for adding ipip-interface """
+    """Method for adding ipip-interface"""
     arg_ip_start = job.arg_1
     arg_ip_end = job.arg_2
     arg_ip_int = job.arg_3

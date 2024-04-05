@@ -1067,7 +1067,6 @@ def save_router_config():
                                 }
                             )
 
-
         # Set IP adresses
         iface_ids = request.form.getlist("config_router_iface_ids[]")
         for iface_id in iface_ids:
